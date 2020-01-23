@@ -198,6 +198,7 @@ const ChildrenSlot = styled('div')<Pick<HeaderProps, 'centeredNav' | 'themeColor
       marginRight: isCollapsed ? '' : 0,
     },
     flexGrow: !isCollapsed && centeredNav ? 1 : 'unset',
+    width: !isCollapsed ? `100%` : `unset`,
   }),
   navStyle
 );
